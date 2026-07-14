@@ -30,7 +30,7 @@ const priorityStyles: Record<string, string> = {
 function AnnouncementsPage() {
   const { role, user } = useAuth();
   const qc = useQueryClient();
-  const canManage = role === "admin" || role === "faculty";
+  const canManage = !!role;
   const [open, setOpen] = useState(false);
   const [priority, setPriority] = useState("normal");
   const [audience, setAudience] = useState("all");

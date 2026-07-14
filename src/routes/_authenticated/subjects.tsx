@@ -23,7 +23,7 @@ export const Route = createFileRoute("/_authenticated/subjects")({
 function SubjectsPage() {
   const { role } = useAuth();
   const qc = useQueryClient();
-  const canManage = role === "admin";
+  const canManage = !!role;
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [dept, setDept] = useState("all");

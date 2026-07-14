@@ -25,7 +25,7 @@ const CATEGORIES = ["tuition", "hostel", "bus", "exam", "library", "misc"];
 function FeesPage() {
   const { role, user } = useAuth();
   const qc = useQueryClient();
-  const isAdmin = role === "admin";
+  const isAdmin = !!role;
   const [open, setOpen] = useState(false);
   const [filter, setFilter] = useState("all");
 

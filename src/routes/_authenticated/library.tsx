@@ -21,7 +21,7 @@ export const Route = createFileRoute("/_authenticated/library")({
 function LibraryPage() {
   const { role } = useAuth();
   const qc = useQueryClient();
-  const canManage = role === "admin" || role === "librarian";
+  const canManage = !!role;
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");

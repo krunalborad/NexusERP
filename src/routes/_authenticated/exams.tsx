@@ -30,7 +30,7 @@ const typeColor: Record<string, string> = {
 function ExamsPage() {
   const { role } = useAuth();
   const qc = useQueryClient();
-  const canManage = role === "admin" || role === "faculty";
+  const canManage = !!role;
   const [open, setOpen] = useState(false);
   const [subjectId, setSubjectId] = useState("");
   const [type, setType] = useState("midterm");

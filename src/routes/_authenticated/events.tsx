@@ -31,7 +31,7 @@ const catColors: Record<string, string> = {
 function EventsPage() {
   const { role, user } = useAuth();
   const qc = useQueryClient();
-  const canManage = role === "admin" || role === "faculty";
+  const canManage = !!role;
   const [open, setOpen] = useState(false);
   const [category, setCategory] = useState("academic");
 

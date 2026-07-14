@@ -23,7 +23,7 @@ type Status = "present" | "absent" | "late";
 
 function AttendancePage() {
   const { role } = useAuth();
-  const canMark = role === "admin" || role === "faculty";
+  const canMark = !!role;
   return canMark ? <MarkAttendance /> : <StudentAttendance />;
 }
 

@@ -11,19 +11,20 @@ import { cn } from "@/lib/utils";
 
 type Item = { to: string; label: string; icon: any; roles: AppRole[] };
 
+const ALL_ROLES: AppRole[] = ["admin", "faculty", "student", "librarian"];
 const NAV: Item[] = [
-  { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard, roles: ["admin","faculty","student","librarian"] },
-  { to: "/students", label: "Students", icon: Users, roles: ["admin","faculty"] },
-  { to: "/faculty", label: "Faculty", icon: GraduationCap, roles: ["admin"] },
-  { to: "/departments", label: "Departments", icon: Building2, roles: ["admin"] },
-  { to: "/subjects", label: "Subjects", icon: BookOpen, roles: ["admin","faculty","student"] },
-  { to: "/timetable", label: "Timetable", icon: CalendarRange, roles: ["admin","faculty","student"] },
-  { to: "/attendance", label: "Attendance", icon: CalendarCheck, roles: ["admin","faculty","student"] },
-  { to: "/exams", label: "Exams & Grades", icon: ClipboardList, roles: ["admin","faculty","student"] },
-  { to: "/fees", label: "Fees", icon: Wallet, roles: ["admin","student"] },
-  { to: "/library", label: "Library", icon: Library, roles: ["admin","librarian","student","faculty"] },
-  { to: "/announcements", label: "Announcements", icon: Megaphone, roles: ["admin","faculty","student","librarian"] },
-  { to: "/events", label: "Events", icon: CalendarDays, roles: ["admin","faculty","student","librarian"] },
+  { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard, roles: ALL_ROLES },
+  { to: "/students", label: "Students", icon: Users, roles: ALL_ROLES },
+  { to: "/faculty", label: "Faculty", icon: GraduationCap, roles: ALL_ROLES },
+  { to: "/departments", label: "Departments", icon: Building2, roles: ALL_ROLES },
+  { to: "/subjects", label: "Subjects", icon: BookOpen, roles: ALL_ROLES },
+  { to: "/timetable", label: "Timetable", icon: CalendarRange, roles: ALL_ROLES },
+  { to: "/attendance", label: "Attendance", icon: CalendarCheck, roles: ALL_ROLES },
+  { to: "/exams", label: "Exams & Grades", icon: ClipboardList, roles: ALL_ROLES },
+  { to: "/fees", label: "Fees", icon: Wallet, roles: ALL_ROLES },
+  { to: "/library", label: "Library", icon: Library, roles: ALL_ROLES },
+  { to: "/announcements", label: "Announcements", icon: Megaphone, roles: ALL_ROLES },
+  { to: "/events", label: "Events", icon: CalendarDays, roles: ALL_ROLES },
 ];
 
 export function AppShell({ children }: { children: ReactNode }) {

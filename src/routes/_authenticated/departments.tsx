@@ -58,7 +58,7 @@ function DepartmentsPage() {
     onError: (e: any) => toast.error(e.message),
   });
 
-  const canManage = role === "admin";
+  const canManage = !!role;
 
   return (
     <div>
