@@ -17,8 +17,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - User profile management
 - Authentication guards
 
----
-
 ## 📊 Dashboard
 
 - Institution overview
