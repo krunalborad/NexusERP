@@ -6,8 +6,6 @@ The platform helps educational institutions manage **students, faculty, departme
 
 NexusERP simplifies academic and administrative operations by providing a secure, scalable, and user-friendly management system for schools, colleges, and universities.
 
----
-
 # 🌟 Features
 
 ## 👤 Authentication & Security
