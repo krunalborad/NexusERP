@@ -235,8 +235,6 @@ http://localhost:3000
 - Mobile Application
 - Report Generation & Export
 
----
-
 # 💡 Conclusion
 
 **NexusERP** is a modern **School & College ERP platform** designed to simplify academic and administrative management through a centralized, secure, and scalable web application.
