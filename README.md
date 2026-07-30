@@ -28,8 +28,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Upcoming events
 - Quick access modules
 
----
-
 ## 🎓 Student Management
 
 - Student profiles
@@ -37,8 +35,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Academic information
 - Student search
 - Enrollment tracking
-
----
 
 ## 👨‍🏫 Faculty Management
 
@@ -56,16 +52,12 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Faculty allocation
 - Academic structure
 
----
-
 ## 📚 Subject Management
 
 - Subject catalog
 - Subject allocation
 - Department-wise subjects
 - Course information
-
----
 
 ## 📝 Attendance Management
 
@@ -74,16 +66,12 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Attendance reports
 - Daily attendance management
 
----
-
 ## 📅 Timetable Management
 
 - Class schedules
 - Faculty schedules
 - Subject allocation
 - Daily timetable management
-
----
 
 ## 💰 Fee Management
 
@@ -92,16 +80,12 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Outstanding fee management
 - Fee reports
 
----
-
 ## 📖 Library Management
 
 - Library records
 - Book management
 - Borrowing information
 - Library tracking
-
----
 
 ## 🧾 Examination Management
 
@@ -110,8 +94,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Academic assessments
 - Result management (Future Scope)
 
----
-
 ## 📢 Announcements
 
 - Institution announcements
@@ -119,16 +101,12 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Student notifications
 - Campus updates
 
----
-
 ## 🎉 Events
 
 - Academic events
 - College events
 - Event announcements
 - Event management
-
----
 
 # 🧰 Tech Stack
 
@@ -143,8 +121,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - shadcn/ui
 - Radix UI
 
----
-
 ## Backend / BaaS
 
 - Supabase
@@ -153,8 +129,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Realtime Database
 - Session Management
 
----
-
 ## UI & Component Libraries
 
 - Radix UI
@@ -162,14 +136,10 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Sonner
 - Tailwind CSS
 
----
-
 ## Deployment
 
 - Cloudflare Workers
 - Vite
-
----
 
 ## Developer Tools
 
@@ -178,8 +148,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - PostCSS
 - Tailwind CSS
 - Vite
-
----
 
 # 🔐 Authentication
 
@@ -193,8 +161,6 @@ Authentication is handled using **Supabase Auth**.
 - Auto Refresh Tokens
 - Session Management
 
----
-
 # ⚙️ Environment Variables
 
 Create a `.env` file in the project root:
@@ -203,8 +169,6 @@ Create a `.env` file in the project root:
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
 ```
-
----
 
 # ▶️ Run Locally
 
@@ -245,8 +209,6 @@ http://localhost:3000
 - Modular and scalable project architecture
 - Cloudflare deployment readiness
 
----
-
 # 🎯 Target Users
 
 - Schools
@@ -256,8 +218,6 @@ http://localhost:3000
 - Teachers
 - Administrative Staff
 - Students
-
----
 
 # 🚧 Future Improvements
 
