@@ -43,8 +43,6 @@ NexusERP simplifies academic and administrative operations by providing a secure
 - Contact information
 - Faculty directory
 
----
-
 ## 🏫 Department Management
 
 - Department records
@@ -242,3 +240,7 @@ http://localhost:3000
 The platform enables educational institutions to efficiently manage students, faculty, attendance, departments, examinations, fees, library resources, timetables, announcements, and events from a single dashboard.
 
 Built using **React, TanStack Start, TypeScript, Tailwind CSS, Supabase, and Cloudflare Workers**, NexusERP demonstrates modern full-stack application architecture, secure authentication, responsive UI development, and scalable educational management system design.
+
+# 🚀 Live Demo:
+
+## https://nexuserp-phi.vercel.app
